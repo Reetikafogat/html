@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form3</title>
+</head>
+<body>
+    <fieldset>
+        <h1>Complex Form</h1>
+        <fieldset><label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <label for="phone">Phone No:</label>
+            <input type="password" id="phone">
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date"> <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" value="male">
+            <label for="gender">male</label>
+            <input type="radio" id="gender" value="female">
+            <label for="gender">female</label>
+            <input type="radio" id="gender" value="other">
+            <label for="gender">other</label><br><br>
+            <label for="country">Country:</label>
+            <select name="other" id="other">
+                <option value="student">us</option>
+                <option value="proffessional">uk</option>
+                <option value="other">Other</option>
+            </select><br><br>
+        </fieldset>
+        <fieldset>
+        <legend>Address</legend>
+        <label for="addr"> state</label>
+        <input type="text" id="addr">
+        <label for="city">city</label>
+        <input type="text" id="city">
+        <label for="code">zip code</label>
+        <input type="text" id="code">
+        </fieldset>
+        <fieldset>
+        <legend><h4>Other Info.</h4></legend>
+        <label for="comment">Comments:</label>
+        <textarea name="COMMENTS" id="comment" cols="40" rows="15"></textarea>
+        <label for="terms">I agree to the terms of service</label>
+        <input type="checkbox" id="terms">
+        </fieldset>
+        
+    </fieldset>
+    <button>submit</button>
+</body>
+</html>
