@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+</head>
+<body>
+    <form action="">
+        <h2>Job application</h2>
+
+        <label for="name">Name:</label><br><br>
+        <input type="text" id="name"><br>
+        <label for="email">Email:</label>
+        <br><br>
+        <input type="email" id="email"><br>
+        <label for="phone">Phone No:</label><br><br>
+        <input type="password" id="phone"><br>
+        <label for="file">Resume:</label><br><br>
+        <input type="file" id="file"><br><br>
+        <label for="experience">Experience(years):</label><br><br>
+        <input type="number" id="experience" min="0" max="50"><br><br>
+
+        <fieldset>
+            <h3>Skills:</h3>
+            <input type="checkbox" id="html" ><br>
+            <label for="html">HTML</label><br><br>
+            <input type="checkbox" id="css"><br>
+            <label for="css">CSS</label><br><br>
+            <input type="checkbox" id="java" ><br>
+            <label for="java">JAVASCRIPT</label><br>
+        </fieldset><br>
+
+        <label for="edu">Highest Education:</label><br><br>
+        <select name="education" id="edu">
+            <option value="high school">high school</option>
+            <option value="graduation">graduate</option>
+            <option value="post-grad">post graduation</option>
+        </select><br><br>
+
+        <label for="aval">Availability:</label><br><br>
+        <input type="radio" id="aval1"><br>
+        <label for="aval1">full-time</label><br><br>
+        <input type="radio" id="aval2"><br>  
+        <label for="aval2">part-time</label><br><br>
+
+        <label for="comment">Additional Comments:</label><br><br>
+        <textarea name="COMMENTS" id="comment" cols="40" rows="15"></textarea>
+    </form>
+</body>
+</html>
